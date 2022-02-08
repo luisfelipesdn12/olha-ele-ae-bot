@@ -1,4 +1,4 @@
-# welcome2voice-bot
+# olha-ele-ae-bot
 
 🤖 NODE.TS - Play a [welcome sound](https://www.youtube.com/watch?v=W8ab00LC-JQ) every time someone joins the voice channel.
 
