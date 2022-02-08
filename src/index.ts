@@ -1,6 +1,11 @@
 import { Client, VoiceChannel, VoiceConnection } from 'discord.js';
 import ytdl from 'ytdl-core';
 import config from './config';
+import dotenv from 'dotenv';
+
+dotenv.config({
+  path: process.env.NODE_ENV === 'production' ? '.env' : '.env.dev',
+});
 
 const WELCOME_SOUNDS = ['W8ab00LC-JQ'];
 
